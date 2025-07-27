@@ -21,35 +21,35 @@ Efficient storage solution for billing records in Azure—minimizing costs using
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites:
 
 - Python 3.8+
 - Azure CLI
 - Azure Functions Core Tools
 
-### Install dependencies
+### Install dependencies:
 
 pip install -r requirements.txt
 
 
-### Deploy Resources
+### Deploy Resources:
 
 bash scripts/deploy_resources.sh
 
 
-### Configure and Deploy Functions
+### Configure and Deploy Functions:
 
 - Fill in Cosmos DB and Blob Storage connection info in Python scripts.
 - Deploy or run locally using Azure Functions Core Tools.
 
-## Code Structure
+## Code Structure:
 
 - `/archive/`: Archival function source
 - `/retrieval/`: Retrieval function source
 - `/scripts/`: Shell scripts for Azure resource deployment
 - `/docs/`: Detailed design/decisions
 
-## Note
+## Note:
 
 Refer to `docs/architecture.md` for deeper discussion on design, cost models, and operational notes.
 
@@ -65,10 +65,6 @@ Refer to `docs/architecture.md` for deeper discussion on design, cost models, an
 | Cost Optimization     | Cold data in lowest cost storage, hot in Cosmos DB       |
 
 ---
-
-## License
-
-[MIT License]
 
 ## Author
 
