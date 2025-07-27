@@ -6,7 +6,7 @@ Efficient storage solution for billing records in Azure—minimizing costs using
 
 ## Architecture
 
-### Architecture
+### Architecture Diagram:
 
 ![Architecture Diagram](Architecture.png)
 
