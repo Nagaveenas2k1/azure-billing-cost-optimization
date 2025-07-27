@@ -6,6 +6,8 @@ Efficient storage solution for billing records in Azure—minimizing costs using
 
 ## Architecture
 
+### Architecture
+
 ![Architecture Diagram](architecture.png)
 
 - **Hot Store:** Azure Cosmos DB (last 3 months of records)
