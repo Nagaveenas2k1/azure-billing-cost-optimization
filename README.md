@@ -8,7 +8,7 @@ Efficient storage solution for billing records in Azure—minimizing costs using
 
 ### Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](Architecture.png)
 
 - **Hot Store:** Azure Cosmos DB (last 3 months of records)
 - **Cold Store:** Azure Blob Storage, cool/archive tier (records >3 months old)
